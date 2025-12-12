@@ -14,7 +14,15 @@
     <nav class="site-nav" aria-label="Primary">
       <ul>
         <li><a href="#hero">Home</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" href="#projects">Projects ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="https://wmaisel.github.io/Financial_Analysis_Block_v.s._PayPal/">XYZ v.s. PYPL: AI in Financial Analysis?</a></li>
+            <li><a href="projects/finance.html#dcf-app">DCF Valuation App</a></li>
+            <li><a href="projects/coverd.html">Ascend Consulting Group and Coverd</a></li>
+            <li><a href="projects/sbgb.html">Consult Your Community and Santa Barbara Gift Baskets</a></li>
+          </ul>
+        </li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -42,200 +50,240 @@
       </div>
     </section>
 
-    <section class="section" id="education" aria-labelledby="education-title">
-      <div class="section-header">
-        <h2 id="education-title">Education</h2>
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="resume-card">
+        <div class="section-header">
+          <h2 id="projects-title">Finance and Technical Projects</h2>
+          <p>Check out some of these projects I've created or worked on!</p>
+        </div>
+        <div class="section-body">
+          <article class="card">
+            <h3>XYZ v.s. PYPL: AI in Financial Analysis?</h3>
+            <p>Financial statement and ratio analysis of two fintech giants seeking a better understanding of the capabilities of AI in finance.</p>
+            <a class="project-button" href="https://wmaisel.github.io/Financial_Analysis_Block_v.s._PayPal/">View project</a>
+          </article>
+          <article class="card">
+            <h3>DCF Valuation App</h3>
+            <p>React + FastAPI app that ingests market data, runs valuation scenarios, and provides run-locally setup instructions.</p>
+            <a class="project-button" href="projects/finance.html#dcf-app">View project</a>
+          </article>
+          <article class="card">
+            <h3>Ascend Consulting Group and Coverd</h3>
+            <p>8-week tech product consulting engagement in which I conducted UX research on a team of 10 student consultants.</p>
+            <a class="project-button" href="projects/coverd.html">See what we did</a>
+          </article>
+          <article class="card">
+            <h3>Consult Your Community and Santa Barbara Gift Baskets</h3>
+            <p>10-week strategy consulting engagement with a local retail business in which I led a team of 5 consultants as we guided the client through M&amp;A preparation.</p>
+            <a class="project-button" href="projects/sbgb.html">See what we did</a>
+          </article>
+        </div>
       </div>
-      <div class="section-body">
-        <article class="entry education-block">
-          <div class="education-header">
-            <div class="education-header-row">
-              <span class="education-left">UC Santa Barbara</span>
-              <span class="education-right">Santa Barbara, California</span>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="resume-card">
+        <div class="section-header">
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="section-body">
+          <article class="entry education-block">
+            <div class="education-header">
+              <div class="education-header-row">
+                <span class="education-left">UC Santa Barbara</span>
+                <span class="education-right">Santa Barbara, California</span>
+              </div>
+              <div class="education-header-row">
+                <span class="education-left role">Financial Mathematics &amp; Statistics, B.S.; Strategic Investments Program</span>
+                <span class="education-right">Sep. 2024 – Jun. 2028</span>
+              </div>
             </div>
-            <div class="education-header-row">
-              <span class="education-left role">Financial Mathematics &amp; Statistics, B.S.; Strategic Investments Program</span>
-              <span class="education-right">Sep. 2024 – Jun. 2028</span>
-            </div>
-          </div>
-          <ul>
-            <li>GPA: 3.91 / 4.0, Dean’s Honors</li>
-          </ul>
-          <p class="course-section"><strong>Relevant Coursework</strong></p>
-          <p class="course-section"><strong>MATH</strong></p>
-          <ul class="course-list">
-            <li>MATH 3B: Calculus 2 with Applications</li>
-            <li>MATH 4A: Linear Algebra</li>
-            <li>MATH 4B: Differential Equations</li>
-            <li>MATH 6A: Vector Calculus 1</li>
-            <li>MATH 6B: Vector Calculus 2</li>
-            <li>MATH 8: Intro to Higher Mathematics</li>
-            <li>MATH 117: Real Analysis</li>
-          </ul>
-          <p class="course-section"><strong>PSTAT</strong></p>
-          <ul class="course-list">
-            <li>PSTAT 10: Principles of Data Science with R</li>
-            <li>PSTAT 120A: Probability and Statistics</li>
-            <li>PSTAT 120B: Probability and Statistics</li>
-          </ul>
-          <p class="course-section"><strong>ECON</strong></p>
-          <ul class="course-list">
-            <li>ECON 1: Microeconomic Principles</li>
-            <li>ECON 2: Macroeconomic Principles</li>
-            <li>ECON 10A: Microeconomic Theory with Calculus</li>
-            <li>ECON X499.1: Financial Economics</li>
-            <li>ECON X499.2: Financial Economics II</li>
-          </ul>
-        </article>
+            <ul>
+              <li>GPA: 3.91 / 4.0, Dean’s Honors</li>
+            </ul>
+            <p class="course-section"><strong>Relevant Coursework</strong></p>
+            <p class="course-section"><strong>MATH</strong></p>
+            <ul class="course-list">
+              <li>MATH 3B: Calculus 2 with Applications</li>
+              <li>MATH 4A: Linear Algebra</li>
+              <li>MATH 4B: Differential Equations</li>
+              <li>MATH 6A: Vector Calculus 1</li>
+              <li>MATH 6B: Vector Calculus 2</li>
+              <li>MATH 8: Intro to Higher Mathematics</li>
+              <li>MATH 117: Real Analysis</li>
+            </ul>
+            <p class="course-section"><strong>PSTAT</strong></p>
+            <ul class="course-list">
+              <li>PSTAT 10: Principles of Data Science with R</li>
+              <li>PSTAT 120A: Probability and Statistics</li>
+              <li>PSTAT 120B: Probability and Statistics</li>
+            </ul>
+            <p class="course-section"><strong>ECON</strong></p>
+            <ul class="course-list">
+              <li>ECON 1: Microeconomic Principles</li>
+              <li>ECON 2: Macroeconomic Principles</li>
+              <li>ECON 10A: Microeconomic Theory with Calculus</li>
+              <li>ECON X499.1: Financial Economics</li>
+              <li>ECON X499.2: Financial Economics II</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="section-header">
-        <h2 id="experience-title">Leadership &amp; Extracurricular Experience</h2>
-      </div>
-      <div class="section-body">
-        <article class="entry">
-          <div class="entry-header">
-            <strong>UCSB Consult Your Community</strong>
-            <span class="entry-meta">Santa Barbara, California</span>
-          </div>
-          <div class="entry-header">
-            <span class="entry-role">Engagement Manager – Santa Barbara Gift Baskets (Ongoing)</span>
-            <span class="entry-meta">Oct. 2025 – Present</span>
-          </div>
-          <ul>
-            <li>Led a 10-week consulting engagement preparing a local retail business for acquisition, conducting SMO/SEO, creating a SOP binder, and polishing a buyer-facing pitch deck.</li>
-            <li>Directed a team of 5 consultants in market, client, and financial analyses, focusing on addressing operational inefficiencies and improving brand positioning for sale readiness.</li>
-            <li>Developed a client management system to increase corporate client acquisition and retention.</li>
-          </ul>
-          <div class="entry-header">
-            <span class="entry-role">Recruitment Chairman – Founding Executive Board</span>
-            <span class="entry-meta">Jul. 2025 – Present</span>
-          </div>
-          <ul>
-            <li>Built UCSB’s founding Consult Your Community consultant team, organizing and executing a full-cycle recruitment strategy from scratch that attracted 140 applicants for only 18 spots.</li>
-            <li>Designed and implemented applicant evaluation rubrics, represented CYC at campus fairs and tabling events, planned and hosted information sessions and application workshops.</li>
-            <li>Collaborated with six other founding executive board members to establish CYC at UCSB, partnering with nationals leadership and UCSB SEAL advisors to ensure a successful launch.</li>
-          </ul>
-        </article>
-        <article class="entry">
-          <div class="entry-header">
-            <strong>UCSB Ascend Consulting Group</strong>
-            <span class="entry-meta">Santa Barbara, California</span>
-          </div>
-          <div class="entry-header">
-            <span class="entry-role">Product Consultant</span>
-            <span class="entry-meta">Mar. 2025 – Present</span>
-          </div>
-          <ul>
-            <li>Led end-to-end UX research for Coverd, a VC-backed gamified finance startup, conducting ~50 user interviews, synthesizing insights into weekly deliverables, and collaborating directly with the founders to refine product-market fit through Gen Z-driven feedback.</li>
-          </ul>
-          <div class="entry-header">
-            <span class="entry-role">Director of Operations</span>
-            <span class="entry-meta">May 2025 – Present</span>
-          </div>
-          <ul>
-            <li>Oversaw club operations such as room scheduling and organization of intraclub coffee chats.</li>
-          </ul>
-          <div class="entry-header">
-            <span class="entry-role">Intern</span>
-            <span class="entry-meta">Oct. 2024 – Jan. 2025</span>
-          </div>
-          <ul>
-            <li>Designed and launched a multifunctional website from scratch using WordPress and Elementor, delivering a client-ready product under tight deadlines and daily feedback loops.</li>
-          </ul>
-        </article>
-        <article class="entry">
-          <div class="entry-header">
-            <strong>Alpha Tau Omega Fraternity, Iota Nu Chapter</strong>
-            <span class="entry-meta">Santa Barbara, California</span>
-          </div>
-          <div class="entry-header">
-            <span class="entry-role">Treasurer</span>
-            <span class="entry-meta">Jan. 2026 – Dec. 2026</span>
-          </div>
-          <ul>
-            <li>Managed chapter finances, collecting dues and overseeing an annual budget of $150,000.</li>
-          </ul>
-        </article>
-        <article class="entry">
-          <div class="entry-header">
-            <strong>UPenn Social Innovators Program / Entrepreneurial Leaders Program</strong>
-            <span class="entry-meta">Virtual Course</span>
-          </div>
-          <div class="entry-header">
-            <span class="entry-role">Student</span>
-            <span class="entry-meta">Mar. 2023 – Sep. 2023</span>
-          </div>
-          <ul>
-            <li>Sponsored for a selective entrepreneurship course through Schoolyard Ventures and UPenn.</li>
-            <li>One of 3 students (out of 25) invited to advance to the ELP program for further training.</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="projects" aria-labelledby="projects-title">
-      <div class="section-header">
-        <h2 id="projects-title">Finance and Technical Projects</h2>
-        <p>Check out some of these projects I've created or worked on!</p>
-      </div>
-      <div class="section-body">
-        <article class="card">
-          <h3>XYZ v.s. PYPL: AI in Financial Analysis?</h3>
-          <p>Financial statement and ratio analysis of two fintech giants seeking a better understanding of the capabilities of AI in finance.</p>
-          <a class="project-button" href="https://wmaisel.github.io/Financial_Analysis_Block_v.s._PayPal/">View project</a>
-        </article>
-        <article class="card">
-          <h3>DCF Valuation App</h3>
-          <p>React + FastAPI app that ingests market data, runs valuation scenarios, and provides run-locally setup instructions.</p>
-          <a class="project-button" href="projects/finance.html#dcf-app">View project</a>
-        </article>
-        <article class="card">
-          <h3>Ascend Consulting Group and Coverd</h3>
-          <p>8-week tech product consulting engagement in which I conducted UX research on a team of 10 student consultants.</p>
-          <a class="project-button" href="projects/coverd.html">See what we did</a>
-        </article>
-        <article class="card">
-          <h3>Consult Your Community and Santa Barbara Gift Baskets</h3>
-          <p>10-week strategy consulting engagement with a local retail business in which I led a team of 5 consultants as we guided the client through M&amp;A preparation.</p>
-          <a class="project-button" href="projects/sbgb.html">See what we did</a>
-        </article>
+      <div class="resume-card">
+        <div class="section-header">
+          <h2 id="experience-title">Leadership &amp; Extracurricular Experience</h2>
+        </div>
+        <div class="section-body">
+          <article class="entry">
+            <div class="entry-header">
+              <strong>UCSB Consult Your Community</strong>
+              <span class="entry-meta">Santa Barbara, California</span>
+            </div>
+            <div class="entry-header">
+              <span class="entry-role">Engagement Manager – Santa Barbara Gift Baskets (Ongoing)</span>
+              <span class="entry-meta">Oct. 2025 – Present</span>
+            </div>
+            <ul>
+              <li>Led a 10-week consulting engagement preparing a local retail business for acquisition, conducting SMO/SEO, creating a SOP binder, and polishing a buyer-facing pitch deck.</li>
+              <li>Directed a team of 5 consultants in market, client, and financial analyses, focusing on addressing operational inefficiencies and improving brand positioning for sale readiness.</li>
+              <li>Developed a client management system to increase corporate client acquisition and retention.</li>
+            </ul>
+            <div class="entry-header">
+              <span class="entry-role">Recruitment Chairman – Founding Executive Board</span>
+              <span class="entry-meta">Jul. 2025 – Present</span>
+            </div>
+            <ul>
+              <li>Built UCSB’s founding Consult Your Community consultant team, organizing and executing a full-cycle recruitment strategy from scratch that attracted 140 applicants for only 18 spots.</li>
+              <li>Designed and implemented applicant evaluation rubrics, represented CYC at campus fairs and tabling events, planned and hosted information sessions and application workshops.</li>
+              <li>Collaborated with six other founding executive board members to establish CYC at UCSB, partnering with nationals leadership and UCSB SEAL advisors to ensure a successful launch.</li>
+            </ul>
+          </article>
+          <article class="entry">
+            <div class="entry-header">
+              <strong>UCSB Ascend Consulting Group</strong>
+              <span class="entry-meta">Santa Barbara, California</span>
+            </div>
+            <div class="entry-header">
+              <span class="entry-role">Product Consultant</span>
+              <span class="entry-meta">Mar. 2025 – Present</span>
+            </div>
+            <ul>
+              <li>Led end-to-end UX research for Coverd, a VC-backed gamified finance startup, conducting ~50 user interviews, synthesizing insights into weekly deliverables, and collaborating directly with the founders to refine product-market fit through Gen Z-driven feedback.</li>
+            </ul>
+            <div class="entry-header">
+              <span class="entry-role">Director of Operations</span>
+              <span class="entry-meta">May 2025 – Present</span>
+            </div>
+            <ul>
+              <li>Oversaw club operations such as room scheduling and organization of intraclub coffee chats.</li>
+            </ul>
+            <div class="entry-header">
+              <span class="entry-role">Intern</span>
+              <span class="entry-meta">Oct. 2024 – Jan. 2025</span>
+            </div>
+            <ul>
+              <li>Designed and launched a multifunctional website from scratch using WordPress and Elementor, delivering a client-ready product under tight deadlines and daily feedback loops.</li>
+            </ul>
+          </article>
+          <article class="entry">
+            <div class="entry-header">
+              <strong>Alpha Tau Omega Fraternity, Iota Nu Chapter</strong>
+              <span class="entry-meta">Santa Barbara, California</span>
+            </div>
+            <div class="entry-header">
+              <span class="entry-role">Treasurer</span>
+              <span class="entry-meta">Jan. 2026 – Dec. 2026</span>
+            </div>
+            <ul>
+              <li>Managed chapter finances, collecting dues and overseeing an annual budget of $150,000.</li>
+            </ul>
+          </article>
+          <article class="entry">
+            <div class="entry-header">
+              <strong>UPenn Social Innovators Program / Entrepreneurial Leaders Program</strong>
+              <span class="entry-meta">Virtual Course</span>
+            </div>
+            <div class="entry-header">
+              <span class="entry-role">Student</span>
+              <span class="entry-meta">Mar. 2023 – Sep. 2023</span>
+            </div>
+            <ul>
+              <li>Sponsored for a selective entrepreneurship course through Schoolyard Ventures and UPenn.</li>
+              <li>One of 3 students (out of 25) invited to advance to the ELP program for further training.</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section" id="skills" aria-labelledby="skills-title">
-      <div class="section-header">
-        <h2 id="skills-title">Skills</h2>
-      </div>
-      <div class="section-body">
-        <article>
-          <h3>Technical Skills</h3>
-          <p>Python, Pandas, numpy, React, FastAPI, Git, yfinance, portfolio analytics, and DCF modeling.</p>
-        </article>
-        <article>
-          <h3>Consulting Skills</h3>
-          <p>User research frameworks, synthesis, operations mapping, client presentations, and product storytelling.</p>
-        </article>
-        <article>
-          <h3>Interests</h3>
-          <p>Fintech, valuation, behavioral finance, and helping early-stage teams build with customer insight.</p>
-        </article>
+      <div class="resume-card">
+        <div class="section-header">
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="section-body">
+          <article class="skills-subcontainer">
+            <h3>Technical Skills</h3>
+            <ul>
+              <li>Python</li>
+              <li>R</li>
+              <li>SQL</li>
+              <li>WordPress with Elementor</li>
+              <li>Google Workspace</li>
+              <li>Microsoft 365 (Excel, PowerPoint, Tableau)</li>
+            </ul>
+          </article>
+          <article class="skills-subcontainer">
+            <h3>Consulting Skills</h3>
+            <p><strong>Product</strong></p>
+            <ul>
+              <li>User Experience Research</li>
+              <li>Qualitative Product Analysis</li>
+              <li>Figma Mockup Modeling</li>
+            </ul>
+            <p><strong>Strategy</strong></p>
+            <ul>
+              <li>Market Sizing</li>
+              <li>Hypothesis Testing Framework</li>
+              <li>SEO</li>
+              <li>SMO</li>
+              <li>M&amp;A Guidance</li>
+              <li>Operational Analysis</li>
+              <li>Financial Analysis</li>
+            </ul>
+          </article>
+          <article class="skills-subcontainer">
+            <h3>Interests</h3>
+            <ul>
+              <li>Weightlifting</li>
+              <li>Golf</li>
+              <li>Cooking</li>
+              <li>Camping</li>
+              <li>Surfing</li>
+              <li>Snowboarding</li>
+              <li>House Music</li>
+            </ul>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="section" id="contact" aria-labelledby="contact-title">
-      <div class="section-header">
-        <h2 id="contact-title">Contact</h2>
-        <p>Reach out for opportunities or project discussions.</p>
-      </div>
-      <div class="section-body">
-        <ul>
-          <li>Email: <a href="mailto:wmaisel@ucsb.edu">wmaisel@ucsb.edu</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/weber-maisel-81bab3341/">linkedin.com/in/weber-maisel-81bab3341/</a></li>
-          <li>GitHub: <a href="https://github.com/wmaisel">github.com/wmaisel</a></li>
-        </ul>
+      <div class="resume-card">
+        <div class="section-header">
+          <h2 id="contact-title">Contact</h2>
+          <p>Feel free to reach out and connect! I am always looking to meet new people and discuss new ideas.</p>
+        </div>
+        <div class="section-body">
+          <div class="contact-actions">
+            <a class="project-button" href="mailto:wmaisel@ucsb.edu">Email Me</a>
+            <a class="project-button" href="https://www.linkedin.com/in/weber-maisel-81bab3341/">LinkedIn Profile</a>
+            <a class="project-button" href="https://github.com/wmaisel">GitHub</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
