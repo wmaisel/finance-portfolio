@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finance Projects</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <a href="../index.html#hero">Weber Maisel</a>
+    </div>
+    <nav class="site-nav" aria-label="Primary">
+      <ul>
+        <li><a href="../index.html#hero">Home</a></li>
+        <li><a href="../index.html#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="hero" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="kicker">Quantitative Analysis &amp; Engineering</p>
+        <h1 id="hero-title">Finance Projects</h1>
+        <p class="lede">Valuation, risk modeling, and portfolio analytics built with Python, React, and FastAPI.</p>
+      </div>
+    </section>
+
+    <section class="section" id="intro" aria-labelledby="intro-title">
+      <div class="section-header">
+        <h2 id="intro-title">Overview</h2>
+      </div>
+      <div class="section-body">
+        <p>Selected projects that combine quantitative finance, data analysis, and applied engineering to ship useful tools and clear narratives.</p>
+      </div>
+    </section>
+
+    <section class="section" id="sq-vs-pypl" aria-labelledby="sq-vs-pypl-title">
+      <div class="section-header">
+        <h2 id="sq-vs-pypl-title">SQ vs PYPL Portfolio Analysis</h2>
+      </div>
+      <div class="section-body">
+        <p>Python/Pandas analysis comparing performance and risk across Square (SQ) and PayPal (PYPL) to inform position sizing.</p>
+        <ul>
+          <li>Computed return, volatility, and Sharpe ratios for both names</li>
+          <li>Assessed correlations and diversification impact in a two-asset mix</li>
+          <li>Outlined risk/return tradeoffs and allocation considerations</li>
+        </ul>
+        <nav class="actions" aria-label="SQ vs PYPL links">
+          <a class="btn" href="#">View Writeup</a>
+          <a class="btn ghost" href="#">View Code (GitHub)</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section" id="dcf-app" aria-labelledby="dcf-app-title">
+      <div class="section-header">
+        <h2 id="dcf-app-title">DCF Valuation App</h2>
+      </div>
+      <div class="section-body">
+        <p>React + Vite front end with FastAPI and yfinance backend to run discounted cash flow scenarios in a simple UI.</p>
+        <ul>
+          <li>Pulls market data via yfinance and normalizes inputs</li>
+          <li>Interactive UI for revenue growth, margins, and discount rate sensitivities</li>
+          <li>API endpoints that encapsulate valuation logic for reuse</li>
+        </ul>
+        <nav class="actions" aria-label="DCF app links">
+          <a class="btn" href="#">Visit Repository</a>
+          <a class="btn ghost" href="#run-locally">Run Locally Instructions</a>
+        </nav>
+      </div>
+    </section>
+
+    <section class="section" id="run-locally" aria-labelledby="run-locally-title">
+      <div class="section-header">
+        <h2 id="run-locally-title">Run Locally</h2>
+      </div>
+      <div class="section-body">
+        <p>Follow these steps to run the DCF app locally:</p>
+        <ol>
+          <li>git clone &lt;repo-url&gt;</li>
+          <li>cd backend</li>
+          <li>pip install -r requirements.txt</li>
+          <li>uvicorn main:app --reload</li>
+          <li>cd ../frontend</li>
+          <li>npm install</li>
+          <li>npm run dev</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Discuss finance projects, data work, or collaboration.</p>
+      </div>
+      <div class="section-body">
+        <ul>
+          <li>Email: <a href="mailto:webermaisel@gmail.com">webermaisel@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/webermaisel">linkedin.com/in/webermaisel</a></li>
+          <li>GitHub: <a href="https://github.com/webermaisel">github.com/webermaisel</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2024 Weber Maisel — Finance &amp; Consulting Portfolio</p>
+    <ul>
+      <li><a href="mailto:webermaisel@gmail.com">Email</a></li>
+      <li><a href="https://www.linkedin.com/in/webermaisel">LinkedIn</a></li>
+      <li><a href="https://github.com/webermaisel">GitHub</a></li>
+    </ul>
+  </footer>
+</body>
+</html>
